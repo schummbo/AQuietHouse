@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c354d7f0eb057704fb840c4beaf4d61a, type: 3}
+  m_Name: Body1
+  m_EditorClassIdentifier: 
+  WalkSouth:
+  - {fileID: -379472571, guid: 2f303a36a3fb07243b33510b2f43c5b7, type: 3}
+  - {fileID: -818812222, guid: 2f303a36a3fb07243b33510b2f43c5b7, type: 3}
+  - {fileID: -46632304, guid: 2f303a36a3fb07243b33510b2f43c5b7, type: 3}
+  - {fileID: -1982305078, guid: 2f303a36a3fb07243b33510b2f43c5b7, type: 3}
+  - {fileID: 1326199211, guid: 2f303a36a3fb07243b33510b2f43c5b7, type: 3}
+  - {fileID: -1345991201, guid: 2f303a36a3fb07243b33510b2f43c5b7, type: 3}
+  - {fileID: -67767593, guid: 2f303a36a3fb07243b33510b2f43c5b7, type: 3}
+  - {fileID: 1425842533, guid: 2f303a36a3fb07243b33510b2f43c5b7, type: 3}
+  WalkNorth:
+  - {fileID: -224201592, guid: 2f303a36a3fb07243b33510b2f43c5b7, type: 3}
+  - {fileID: -1727317665, guid: 2f303a36a3fb07243b33510b2f43c5b7, type: 3}
+  - {fileID: -1513494908, guid: 2f303a36a3fb07243b33510b2f43c5b7, type: 3}
+  - {fileID: 235949391, guid: 2f303a36a3fb07243b33510b2f43c5b7, type: 3}
+  - {fileID: -1596210964, guid: 2f303a36a3fb07243b33510b2f43c5b7, type: 3}
+  - {fileID: -1707418546, guid: 2f303a36a3fb07243b33510b2f43c5b7, type: 3}
+  - {fileID: -1143430386, guid: 2f303a36a3fb07243b33510b2f43c5b7, type: 3}
+  - {fileID: 915141145, guid: 2f303a36a3fb07243b33510b2f43c5b7, type: 3}
+  WalkEast:
+  - {fileID: -289433302, guid: 2f303a36a3fb07243b33510b2f43c5b7, type: 3}
+  - {fileID: -326862600, guid: 2f303a36a3fb07243b33510b2f43c5b7, type: 3}
+  - {fileID: -615987558, guid: 2f303a36a3fb07243b33510b2f43c5b7, type: 3}
+  - {fileID: 1281243334, guid: 2f303a36a3fb07243b33510b2f43c5b7, type: 3}
+  - {fileID: -1166276390, guid: 2f303a36a3fb07243b33510b2f43c5b7, type: 3}
+  - {fileID: 2057907616, guid: 2f303a36a3fb07243b33510b2f43c5b7, type: 3}
+  - {fileID: 211737128, guid: 2f303a36a3fb07243b33510b2f43c5b7, type: 3}
+  - {fileID: -136959425, guid: 2f303a36a3fb07243b33510b2f43c5b7, type: 3}
+  WalkWest:
+  - {fileID: 838017098, guid: 2f303a36a3fb07243b33510b2f43c5b7, type: 3}
+  - {fileID: 647605473, guid: 2f303a36a3fb07243b33510b2f43c5b7, type: 3}
+  - {fileID: 1988586442, guid: 2f303a36a3fb07243b33510b2f43c5b7, type: 3}
+  - {fileID: 1517482415, guid: 2f303a36a3fb07243b33510b2f43c5b7, type: 3}
+  - {fileID: 1621303958, guid: 2f303a36a3fb07243b33510b2f43c5b7, type: 3}
+  - {fileID: -281539301, guid: 2f303a36a3fb07243b33510b2f43c5b7, type: 3}
+  - {fileID: 272329808, guid: 2f303a36a3fb07243b33510b2f43c5b7, type: 3}
+  - {fileID: -1806628029, guid: 2f303a36a3fb07243b33510b2f43c5b7, type: 3}
