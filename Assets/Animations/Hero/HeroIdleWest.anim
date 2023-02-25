@@ -53,6 +53,13 @@ AnimationClip:
     path: Shoes
     classID: 212
     script: {fileID: 0}
+  - curve:
+    - time: 0
+      value: {fileID: 1561122073, guid: 6707c245385903743b53361b3beff67d, type: 3}
+    attribute: m_Sprite
+    path: Eyes
+    classID: 212
+    script: {fileID: 0}
   m_SampleRate: 60
   m_WrapMode: 0
   m_Bounds:
@@ -95,12 +102,20 @@ AnimationClip:
       typeID: 212
       customType: 23
       isPPtrCurve: 1
+    - serializedVersion: 2
+      path: 120101800
+      attribute: 0
+      script: {fileID: 0}
+      typeID: 212
+      customType: 23
+      isPPtrCurve: 1
     pptrCurveMapping:
     - {fileID: 838017098, guid: 2f303a36a3fb07243b33510b2f43c5b7, type: 3}
     - {fileID: 471961601, guid: 6bc544c4d7b7d1c45a75fa94a17f75e1, type: 3}
     - {fileID: 1079423966, guid: 43688e7a6302ae941bb4e1db4fda077b, type: 3}
     - {fileID: -1257642756, guid: bfd88b77b8d960146bb946687f433fce, type: 3}
     - {fileID: -1456420636, guid: 7aa5b9f3fbad4ea43bfcc2eba5872076, type: 3}
+    - {fileID: 1561122073, guid: 6707c245385903743b53361b3beff67d, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
