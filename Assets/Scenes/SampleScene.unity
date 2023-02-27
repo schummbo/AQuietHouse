@@ -8229,10 +8229,6 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 40498617}
-    - target: {fileID: 3968441810910903758, guid: 2b28db75416b44d4fb36e874d507a02b, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.95
-      objectReference: {fileID: 0}
     - target: {fileID: 3968441812126063066, guid: 2b28db75416b44d4fb36e874d507a02b, type: 3}
       propertyPath: m_Name
       value: Window
