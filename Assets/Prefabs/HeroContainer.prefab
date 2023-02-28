@@ -435,6 +435,7 @@ GameObject:
   - component: {fileID: 6561456011520185513}
   - component: {fileID: 6561456011520185512}
   - component: {fileID: 295904338}
+  - component: {fileID: 190367729860728256}
   m_Layer: 0
   m_Name: HeroContainer
   m_TagString: Untagged
@@ -618,3 +619,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4068af50f19e2bd4e95ee3d02d19d6e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &190367729860728256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6561456011520185523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29f063af2c8cc71449f38547e465b64e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  structureTilemap: {fileID: 0}
+  structureContainer: {fileID: 11400000, guid: 10608e08634cbba4d9ccd38dab0a603d, type: 2}
+  NewWoodFloor: {fileID: 11400000, guid: 44c75774cc17fd8408d37bde80caef76, type: 2}

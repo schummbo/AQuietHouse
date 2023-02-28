@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5ebf18128b6c9a4daf697d0cba8c9e2, type: 3}
+  m_Name: Crowbar
+  m_EditorClassIdentifier: 
+  IsStackable: 0
+  Icon: {fileID: 21300000, guid: bb26052d8a8a78d43ad4e35aa888c6a9, type: 3}
+  StructureAction: {fileID: 11400000, guid: 9b749a569f8d14d40b5549dbd35416d1, type: 2}

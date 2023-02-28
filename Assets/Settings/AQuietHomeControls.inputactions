@@ -15,9 +15,18 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Interact",
+                    "name": "Inspect",
                     "type": "Button",
                     "id": "ee0e9e62-f7db-496a-a9be-d8003b067b6a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Use Item",
+                    "type": "Button",
+                    "id": "14ca1f08-03cf-4719-b97e-2dcb45b1d777",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -127,11 +136,22 @@
                 {
                     "name": "",
                     "id": "a2b8f72b-b1ef-4087-9d93-79ff4fb65d7b",
+                    "path": "<Mouse>/rightButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Inspect",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "48c0fa4b-4173-42f3-beed-8f021acb9139",
                     "path": "<Mouse>/leftButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Interact",
+                    "action": "Use Item",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
