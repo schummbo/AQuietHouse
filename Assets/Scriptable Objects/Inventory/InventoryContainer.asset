@@ -15,7 +15,7 @@ MonoBehaviour:
   InventorySlots:
   - Item: {fileID: 11400000, guid: 5b6ae39d1bcd89048942e1b56ffd8f0d, type: 2}
     Count: 0
-  - Item: {fileID: 0}
+  - Item: {fileID: 11400000, guid: 2a4fdec488e212442b9a23c74732c08d, type: 2}
     Count: 0
   - Item: {fileID: 0}
     Count: 0
