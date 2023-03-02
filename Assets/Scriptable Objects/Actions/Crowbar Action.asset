@@ -16,3 +16,4 @@ MonoBehaviour:
   ApplicableTiles:
   - {fileID: 11400000, guid: b2d17ae3546070f44bff91ee2624abbf, type: 2}
   - {fileID: 11400000, guid: ba376a84f5e74da4ead7ccf9d231ca78, type: 2}
+  ApplicationParticlesPrefab: {fileID: 5769410691758393168, guid: 2b636484ad8e2204e932b39fdf9987c7, type: 3}

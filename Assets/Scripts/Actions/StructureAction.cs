@@ -7,6 +7,7 @@ public class StructureAction : ScriptableObject
 {
     public Item PanelToPlace;
     public List<TileBase> ApplicableTiles;
+    public GameObject ApplicationParticlesPrefab;
 
     public void Apply(Vector3Int position)
     {
@@ -16,7 +17,32 @@ public class StructureAction : ScriptableObject
         {
             if (PanelToPlace == null)
             {
-                StructureMapReader.Instance.ClearStructureTile(position);
+                if (!StructureMapReader.Instance.ClearStructureTile(position))
+                {
+                    return;
+                }
+            }
+
+            if (ApplicationParticlesPrefab == null)
+            {
+                return;
+            }
+
+            var poof = Instantiate(
+                ApplicationParticlesPrefab,
+                StructureMapReader.Instance.TilemapToWorldPosition(position),
+                Quaternion.identity);
+
+            if (poof == null)
+            {
+                return;
+            }
+
+            var particles = poof.GetComponent<ParticleSystem>();
+
+            if (particles != null)
+            {
+                particles.Play();
             }
         }
     }

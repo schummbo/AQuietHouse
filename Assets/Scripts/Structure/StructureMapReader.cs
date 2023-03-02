@@ -18,8 +18,19 @@ public class StructureMapReader : MonoBehaviour
         return foundationMap.GetTile(position);
     }
 
-    public void ClearStructureTile(Vector3Int position)
+    public bool ClearStructureTile(Vector3Int position)
     {
-        structureMap.SetTile(position, null);
+        if (structureMap.GetTile(position))
+        {
+            structureMap.SetTile(position, null);
+            return true;
+        }
+
+        return false;
+    }
+
+    public Vector3 TilemapToWorldPosition(Vector3Int tilemapPosition)
+    {
+        return foundationMap.CellToWorld(tilemapPosition);
     }
 }

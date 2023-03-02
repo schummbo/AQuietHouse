@@ -15,3 +15,4 @@ MonoBehaviour:
   PanelToPlace: {fileID: 0}
   ApplicableTiles:
   - {fileID: 11400000, guid: 5bee61a885de78740a6ee0cb0e1b785a, type: 2}
+  ApplicationParticlesPrefab: {fileID: 5769410691758393168, guid: 07047a25808dc8948b205db26cacb435, type: 3}
