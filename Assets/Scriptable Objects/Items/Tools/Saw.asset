@@ -9,10 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 330901bda4ca8f549ae8640d15e89c72, type: 3}
-  m_Name: Crowbar Action
+  m_Script: {fileID: 11500000, guid: e5ebf18128b6c9a4daf697d0cba8c9e2, type: 3}
+  m_Name: Saw
   m_EditorClassIdentifier: 
-  PanelToPlace: {fileID: 0}
-  ApplicableTiles:
-  - {fileID: 11400000, guid: b2d17ae3546070f44bff91ee2624abbf, type: 2}
-  - {fileID: 11400000, guid: ba376a84f5e74da4ead7ccf9d231ca78, type: 2}
+  IsStackable: 0
+  Icon: {fileID: 21300000, guid: c70beae24a643c8488ad081a0e8030d8, type: 3}
+  StructureAction: {fileID: 11400000, guid: b2bff2574936dd74791656bdccf2db04, type: 2}
